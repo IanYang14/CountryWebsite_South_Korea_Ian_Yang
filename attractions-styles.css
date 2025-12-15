@@ -79,3 +79,56 @@ nav a:hover{
   padding-top:1px;
   padding-bottom:1px;
 }
+
+ .attractions-container {
+    max-width: 2000px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+        
+.attraction-card {
+    display: flex;
+    flex-wrap:wrap;
+    margin-bottom: 30px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;      
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+        
+.attraction-image {
+    flex: 1;
+    min-width: 300px;
+    max-height: 200px;
+    overflow: hidden;
+}
+        
+ .attraction-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+        
+.attraction-card:hover{
+    transform: scale(1.05);
+}
+        
+.attraction-info {
+    flex: 2;
+            padding: 20px;
+}
+        
+.attraction-info h2 {
+    margin-top: 0;
+    color: #1a237e;
+}
+        
+.attraction-info p {
+    color: #333;
+    line-height: 1.6;
+}
+        

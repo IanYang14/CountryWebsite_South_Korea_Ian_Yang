@@ -40,35 +40,6 @@ nav a:hover{
    transition:0.5s;
 }
 
-#leftpanel{
-  display:flex;
-  flex:7;
-  min-height: 300px;
-}
-
-#leftpanel img{
-  border-radius:10px;
-  width: 98%;
-  height: auto;
-
-}
-
-
-#rightpanel{
-  display:flex;
-  flex:2;
-  background-color:Blue;
-  color:white;
-  min-height: 300px;
-  font-size:large;
-  border-radius: 10px;
-}
-
-#maincontent{
-  padding-top:10px;
-  padding-bottom:6px;
-}
-
 #footer{
   text-align:center;
   justify-content:center;
@@ -79,3 +50,38 @@ nav a:hover{
   padding-top:1px;
   padding-bottom:1px;
 }
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 30px;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+        
+.gallery-item {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+        
+.gallery-item:hover {
+    transform: scale(1.2);
+}
+        
+.gallery-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s;
+}
+        
+.gallery-caption {
+    background: white;
+    padding: 10px;
+    text-align: center;
+}
+        

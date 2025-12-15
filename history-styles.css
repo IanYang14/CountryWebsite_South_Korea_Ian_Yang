@@ -40,33 +40,12 @@ nav a:hover{
    transition:0.5s;
 }
 
-#leftpanel{
-  display:flex;
-  flex:7;
-  min-height: 300px;
-}
-
-#leftpanel img{
-  border-radius:10px;
-  width: 98%;
-  height: auto;
-
-}
-
-
-#rightpanel{
-  display:flex;
-  flex:2;
-  background-color:Blue;
-  color:white;
-  min-height: 300px;
-  font-size:large;
-  border-radius: 10px;
-}
-
 #maincontent{
-  padding-top:10px;
-  padding-bottom:6px;
+  border-radius: 10px;
+  background-color:blue;
+  margin-top:10px;
+  margin-bottom:10px;
+  color:white;
 }
 
 #footer{
