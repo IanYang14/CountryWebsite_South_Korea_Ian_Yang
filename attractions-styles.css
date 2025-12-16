@@ -92,7 +92,7 @@ nav a:hover{
 .attraction-card {
     display: flex;
     flex-wrap:wrap;
-    margin-bottom: 30px;
+    margin-bottom:10px;
     background: white;
     border-radius: 8px;
     overflow: hidden;      
@@ -119,12 +119,13 @@ nav a:hover{
         
 .attraction-info {
     flex: 2;
-            padding: 20px;
+    padding: 20px;
 }
         
 .attraction-info h2 {
     margin-top: 0;
     color: #1a237e;
+    font-size: 20px;
 }
         
 .attraction-info p {
